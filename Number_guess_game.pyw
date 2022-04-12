@@ -73,7 +73,7 @@ def down(*args):
 # main Program
 root=Tk()
 root.title("Number_Guess")
-root.config(bg="yellow")
+root.config(bg="yellow",borderwidth=3,relief=SOLID)
 x_axis=int(root.winfo_screenwidth()/2-root.winfo_reqwidth()*1.2)
 y_axis=int(root.winfo_screenheight()/2-root.winfo_reqheight()*0.8)
 root.geometry(f"+{x_axis}+{y_axis}")
